@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
     /* flex: 1 1 auto; */
     width: 100%;
+    height: 100%;
     max-width: 1728px;
     margin: 0px auto;
     padding: 0px 94px;
@@ -159,6 +160,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     /* min-height: 100vh; */
+    height: 100%;
     justify-content: space-between;
 }
 
