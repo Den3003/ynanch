@@ -4498,7 +4498,8 @@ g:hover .circle_big {
     }
 
     .feauturing__body {
-        gap: 145px;
+        /* gap: 145px; */
+        height: 55%;
     }
 
     .feauturing__body__left {
@@ -5402,7 +5403,7 @@ g:hover .circle_big {
     }
 
     .feauturing__body__left h2 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
 
