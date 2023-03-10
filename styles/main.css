@@ -1180,7 +1180,7 @@ textarea::placeholder {
 
 .fraction__block {
     position: fixed;
-    bottom: 12%;
+    bottom: 15%;
     font-family: "Inter";
     font-size: 32px;
     font-weight: 400;
@@ -5724,7 +5724,7 @@ g:hover .circle_big {
 
 @media only screen and (max-height: 985px) {
     .fraction__block {
-        bottom: 10%;
+        bottom: 14%;
     }
 
    
@@ -5732,7 +5732,7 @@ g:hover .circle_big {
 
 @media only screen and (max-height: 890px) {
     .fraction__block {
-        bottom: 9%;
+        bottom: 13%;
     }
 
    
@@ -5740,7 +5740,7 @@ g:hover .circle_big {
 
 @media only screen and (max-height: 790px) {
     .fraction__block {
-        bottom: 8%;
+        bottom: 12%;
     }
 
    
@@ -5748,7 +5748,7 @@ g:hover .circle_big {
 
 @media only screen and (max-height: 690px) {
     .fraction__block {
-        bottom: 7%;
+        bottom: 10%;
     }
 
    
