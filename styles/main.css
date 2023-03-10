@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header__nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .logo {
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header__body__slogan {
     display: flex;
     flex-direction: column;
-    gap: clamp(16px, 5vw, 49px);
+    gap: 70px;
     max-width: 100%;
 }
 
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header__footer__right {
     display: flex;
     align-items: end;
-    gap: 19px;
+    gap: 20px;
 }
 
 .header__footer__right img {
@@ -578,6 +578,14 @@ textarea::placeholder {
     opacity: 1;
     visibility: visible;
 }
+
+
+
+
+
+
+                                    /* Adaptive Modal block */
+
 
 
 
@@ -2384,13 +2392,23 @@ g:hover .circle_big {
         max-width: 90%;
     }
 
+    .header__body__brend {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .slogan__button a {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .header__footer p {
         font-size: 19px;
     }
+
+    .header__body__slogan {
+        gap: 55px;
+    }
+
 
 
 
@@ -2536,7 +2554,7 @@ g:hover .circle_big {
     }
 
     .header__body__brend img {
-        max-width: 88%;
+        max-width: 86%;
     }
 
     .slogan__button a {
@@ -2547,9 +2565,8 @@ g:hover .circle_big {
         font-size: 18px;
     }
 
-    .header__body__brend {
-        display: flex;
-        justify-content: flex-end;
+    .header__body__slogan {
+        gap: 40px;
     }
 
 
@@ -2806,12 +2823,10 @@ g:hover .circle_big {
 
 
 @media only screen and (max-width: 1440px) {
-    .header__body__slogan h1 {
-        font-size: 62px;
-    }
 
-    .header__body__brend img {
-        max-width: 81%;
+    .header__nav img {
+        max-width: 11%;
+        align-self: flex-end;
     }
 
     .nav__list a {
@@ -2822,12 +2837,20 @@ g:hover .circle_big {
         font-size: 17px;
     }
 
+    .header__body__slogan h1 {
+        font-size: 62px;
+    }
+
     .slogan__button_left {
         padding: 17px 40px;
     }
 
     .slogan__button_right {
         padding: 17px 76px 17px 83px;
+    }
+    
+    .header__body__brend img {
+        max-width: 79%;
     }
 
     .header__footer p {
@@ -2841,6 +2864,16 @@ g:hover .circle_big {
     .header__footer__right img {
         max-width: 13%;
     }
+
+    .header__flex {
+        padding: 60px 0px;
+    }
+
+    
+
+    
+
+    
 
     
 
@@ -3098,48 +3131,59 @@ g:hover .circle_big {
         padding: 0px 80px;
     }
 
+    .header__flex {
+        padding: 50px 0px;
+    }
 
+
+
+
+    .header__nav img {
+        max-width: 10%;
+    }
+
+    .nav__list a {
+        font-size: 14px;
+    }
+
+    .header_button {
+        font-size: 15px;
+        padding: 13px 22px;
+    }
 
     .header__body__slogan h1 {
         font-size: 54px;
     }
 
     .header__body__slogan {
-        gap: 30px;
-    }
-
-    .header__body__brend img {
-        max-width: 68%;
+        gap: 20px;
     }
 
     .slogan__button a {
         font-size: 14px;
     }
 
+    .header__body__brend img {
+        max-width: 65%;
+    }
+
     .slogan__button_left {
-        padding: 16px 35px;
+        padding: 14px 32px;
         border-radius: 10px;
     }
 
     .slogan__button_right {
-        padding: 16px 69px;
+        padding: 14px 65px;
         border-radius: 10px;
     }
-
 
     .header__footer__right img {
         max-width: 13%;
     }
 
-    .header__nav img {
-        display: flex;
-        align-self: flex-end;
-        max-width: 13%;
-    }
+    
 
-    .header_button {
-        font-size: 15px;
-    }
+    
 
     .header__footer {
         /* padding-bottom: 33px; */
@@ -3560,12 +3604,21 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 1024px) {
 
+    .header__flex {
+        padding: 60px 0px;
+    }
+
+    .header__nav img {
+        max-width: 11%;
+    }
+
     .nav__list a {
         font-size: 14px;
     }
 
     .header_button {
         font-size: 13px;
+        padding: 11px 18px;
     }
 
     .header__body__slogan h1 {
@@ -3576,17 +3629,28 @@ g:hover .circle_big {
         font-size: 11px;
     }
 
-    .header__footer p {
-        font-size: 14px;
+    .slogan__button_left {
+        padding: 12px 26px;
+    }
+
+    .slogan__button_right {
+        padding: 12px 50px;
     }
 
     .header__body__brend img {
-        max-width: 57%;
+        max-width: 52%;
     }
 
+    .header__footer p {
+        font-size: 14px;
+    }
+    
 
+    
 
+    
 
+    
     .aboutUs__content h2 {
         font-size: 32px;
         margin-bottom: 22px;
@@ -3873,24 +3937,26 @@ g:hover .circle_big {
         padding: 0px 50px;
     }
 
-
-
-
-    .logo {
-        justify-content: flex-start;
+    .header__flex {
+        padding: 50px 0px;
     }
 
-    .nav__list {
-        gap: 18px;
+    .header__nav img {
+        max-width: 13%;
     }
 
     .nav__list a {
         font-size: 13px;
     }
 
+    .nav__list {
+        gap: 18px;
+    }
+
     .header_button {
         font-size: 12px;
         padding: 11px 18px;
+        border-radius: 5px;
     }
 
     .header__body__slogan h1 {
@@ -3904,6 +3970,7 @@ g:hover .circle_big {
     .slogan__button_left {
         padding: 11px 24px;
         border-radius: 8px;
+        margin-right: 5px;
     }
 
     .slogan__button_right {
@@ -3912,20 +3979,25 @@ g:hover .circle_big {
     }
 
     .header__body__slogan {
-        gap: 23px;
-    }
-
-    .header__footer p {
-        font-size: 12px;
+        gap: 16px;
     }
 
     .header__body__brend img {
         max-width: 66%;
     }
 
-    .header__flex {
-        padding: 20px 0px;
+    .header__footer p {
+        font-size: 12px;
     }
+
+
+
+    .logo {
+        justify-content: flex-start;
+    }
+   
+
+       
 
     
 
@@ -4159,6 +4231,12 @@ g:hover .circle_big {
         padding: 0px 0px;
         justify-content: center;
     }
+
+    .header__flex {
+        padding: 60px 0px;
+    }
+
+
     
     .nav {
         display: flex;
@@ -4188,14 +4266,26 @@ g:hover .circle_big {
         justify-items: flex-end;
     }
 
+    .line {
+        width: 35px;
+    }
+
     .header__nav {
         display: flex;
         justify-content: space-between;
-        padding-top: 60px;
+        align-items: center;
+        /* padding-top: 60px; */
     }
 
+    .header__nav img {
+        max-width: 19%;
+    }
 
-     .nav__list {
+    .header__footer p {
+        font-size: 14px;
+    }
+
+    .nav__list {
         flex-direction: column;
         align-items: center;
         gap: 60px;
@@ -4219,7 +4309,26 @@ g:hover .circle_big {
         display: block;
     }
 
-     .header__body {
+    .slogan__button_left {
+        padding: 14px 28px;
+        border-radius: 9px;
+        margin-right: 10px;
+    }
+
+    .slogan__button_right {
+        padding: 14px 50px;
+        border-radius: 9px;
+    }
+
+    .header__body__slogan {
+        gap: 25px;
+    }
+
+    .header__body__brend img {
+        max-width: 60%;
+    }
+
+    .header__body {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
@@ -4228,10 +4337,6 @@ g:hover .circle_big {
 
     .header__body__brend {
         justify-content: center;
-    }
-
-    .header__body__brend img {
-        max-width: 59%;
     }
 
     .header__body__slogan h1 {
@@ -4245,21 +4350,6 @@ g:hover .circle_big {
 
     .slogan__button a {
         font-size: 12px;
-    }
-
-    .slogan__button_left {
-        padding: 14px 28px;
-        border-radius: 9px;
-    }
-
-    .slogan__button_right {
-        padding: 14px 50px;
-        border-radius: 9px;
-
-    }
-
-    .header__nav img {
-        max-width: 20%;
     }
 
     .logo img {
@@ -4743,7 +4833,7 @@ g:hover .circle_big {
 
 
     .container {
-        padding: 0px 30px;
+        padding: 0px 40px;
     }
 
     .header__body__slogan h1 {
@@ -5058,22 +5148,43 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 516px) {
 
+    .header__flex {
+        padding: 70px 0px;
+    }
+
+    .line {
+        width: 30px;
+    }
+
+
+    .page__scroll {
+        width: 3px;
+    }
+
+    .container {
+        padding: 0px 30px;
+    }
+    
     .header__body__slogan h1 {
-        font-size: 36px;
+        font-size: 34px;
         text-align: left;
         white-space: normal;
     }
 
-    .header__nav {
-        padding-top: 50px;
-    }
-
     .header__nav img {
-        max-width: 27%;
+        max-width: 36%;
     }
 
     .logo img {
         max-width: 100%;
+    }
+
+    /* .logo { */
+        /* justify-content: flex-start; */
+    /* } */
+
+    .header__body__brend img {
+        max-width: 52%;
     }
 
     .slogan__button {
@@ -5091,9 +5202,7 @@ g:hover .circle_big {
         border-radius: 8px;
     }
 
-    .header__footer {
-        padding-bottom: 50px;
-    }
+    
 
     .header__footer__right {
         gap: 5px;
@@ -5102,6 +5211,7 @@ g:hover .circle_big {
     .header__footer p {
         font-size: 11px;
     }
+
 
 
 
@@ -5312,6 +5422,14 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 390px) {
 
+    .header__flex {
+        padding: 70px 0px;
+    }
+
+    .line {
+        width: 30px;
+    }
+
 
     .page__scroll {
         width: 3px;
@@ -5325,10 +5443,6 @@ g:hover .circle_big {
         font-size: 34px;
         text-align: left;
         white-space: normal;
-    }
-
-    .header__nav {
-        padding-top: 50px;
     }
 
     .header__nav img {
@@ -5362,9 +5476,7 @@ g:hover .circle_big {
         border-radius: 8px;
     }
 
-    .header__footer {
-        padding-bottom: 50px;
-    }
+    
 
     .header__footer__right {
         gap: 5px;
