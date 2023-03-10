@@ -4233,7 +4233,8 @@ g:hover .circle_big {
     }
 
     .header__flex {
-        padding: 60px 0px;
+        padding: 0px 0px;
+        justify-content: space-around;
     }
 
 
@@ -5135,9 +5136,6 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 516px) {
 
-    .header__flex {
-        padding: 70px 0px;
-    }
 
     .line {
         width: 30px;
@@ -5409,9 +5407,7 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 390px) {
 
-    .header__flex {
-        padding: 70px 0px;
-    }
+    
 
     .line {
         width: 30px;
@@ -5625,10 +5621,10 @@ g:hover .circle_big {
 
 @media only screen and (max-width: 395px) and (max-height: 700px) {
     
-    .header__flex {
-        padding: 30px 0px;
-    }
-    
+    /* .header__flex { */
+        /* padding: 30px 0px; */
+    /* } */
+    /*  */
     .feauturing__body {
         gap: 60px;
     }
