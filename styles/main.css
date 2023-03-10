@@ -1029,7 +1029,7 @@ textarea::placeholder {
 
 
 .feauturing {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #246EB9;
     /* position: relative; */
 }
@@ -1039,7 +1039,9 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: space-between;
     padding: 72px 0px;
-    min-height: 100vh;
+    height: 100%;
+    max-height: 100%;
+    /* min-height: 100vh; */
 }
 
 .feauturing__header {
