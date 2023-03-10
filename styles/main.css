@@ -4797,19 +4797,6 @@ g:hover .circle_big {
     }
 }
 
-@media only screen and (max-width: 390px) and (max-height: 700px) {
-    .feauturing__body {
-        gap: 60px;
-    }
-
-    .feauturing__flex {
-        padding: 20px 0px;
-    }
-
-    .fraction__block {
-        bottom: 40px;
-    }
-}
 
 
 
@@ -5172,7 +5159,7 @@ g:hover .circle_big {
     }
 
     .header__nav img {
-        max-width: 36%;
+        max-width: 27%;
     }
 
     .logo img {
@@ -5633,6 +5620,31 @@ g:hover .circle_big {
         padding: 0px 0px;
     }
 }
+
+
+
+@media only screen and (max-width: 390px) and (max-height: 700px) {
+    
+    .header__flex {
+        padding: 30px 0px;
+    }
+    
+    .feauturing__body {
+        gap: 60px;
+    }
+
+    .feauturing__flex {
+        padding: 20px 0px;
+    }
+
+    .fraction__block {
+        bottom: 40px;
+    }
+}
+
+
+
+
 
 
 @media only screen and (max-width: 388px) {
