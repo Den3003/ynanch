@@ -1564,7 +1564,7 @@ textarea::placeholder {
 }
 
 .map__body .svg {
-    /* max-width: 100%; */
+    max-width: 100%;
     /* height: auto; */
     max-height: 73vh;
     /* position: relative; */
