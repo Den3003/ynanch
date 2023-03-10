@@ -1037,8 +1037,8 @@ textarea::placeholder {
 .feauturing__flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 72px 0px;
+    justify-content: space-around;
+    /* padding: 72px 0px; */
     height: 100%;
     max-height: 100%;
     /* min-height: 100vh; */
@@ -1110,10 +1110,6 @@ textarea::placeholder {
     transform: translateY(0);
 }
 
-/* .feauturingIndex.active { */
-    /* transition: transform 2s ease-in-out; */
-    /* transform: translateY(0); */
-/* } */
 
 
 .feauturing__footer {
@@ -1121,13 +1117,6 @@ textarea::placeholder {
     justify-content: flex-end;
     align-items: center;
 }
-
-/* .feauturing__footer p { */
-    /* font-family: "Inter"; */
-    /* font-size: 32px; */
-    /* font-weight: 400; */
-    /* color: #FFFFFF; */
-/* } */
 
 .feauturing__footer a {
     text-decoration: none;
@@ -1191,7 +1180,7 @@ textarea::placeholder {
 
 .fraction__block {
     position: fixed;
-    bottom: 85px;
+    bottom: 12%;
     font-family: "Inter";
     font-size: 32px;
     font-weight: 400;
@@ -5732,9 +5721,33 @@ g:hover .circle_big {
 
 }
 
-@media only screen and (max-height: 811px) {
-    .header__nav {
-        /* padding-top: 40px; */
+@media only screen and (max-height: 985px) {
+    .fraction__block {
+        bottom: 10%;
+    }
+
+   
+}
+
+@media only screen and (max-height: 890px) {
+    .fraction__block {
+        bottom: 9%;
+    }
+
+   
+}
+
+@media only screen and (max-height: 790px) {
+    .fraction__block {
+        bottom: 8%;
+    }
+
+   
+}
+
+@media only screen and (max-height: 690px) {
+    .fraction__block {
+        bottom: 7%;
     }
 
    
