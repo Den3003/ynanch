@@ -944,7 +944,7 @@ textarea::placeholder {
 
 
 .services {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #F37021;
 }
 
@@ -952,7 +952,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 100vh;
+    height: 100%;
+    max-height: 100%;
 }
 
 .services_h2 {
@@ -5234,6 +5235,22 @@ g:hover .circle_big {
         max-width: 53%;
     }
 
+    .flex {
+        justify-content: space-around;
+    }
+
+    .flex__h2 {
+        font-size: 32px;
+    }
+
+    .aboutUs__content p {
+        font-size: 13px;
+        text-align: center;
+        /* white-space: nowrap; */
+    }
+
+    
+
    
 
 
@@ -5496,6 +5513,9 @@ g:hover .circle_big {
         /* white-space: nowrap; */
     }
 
+
+
+
     .services__flex {
         padding: 40px 0px;
     }
@@ -5589,13 +5609,6 @@ g:hover .circle_big {
 
 
 
-    .statistic__block_column1 {
-        gap: 55px;
-    }
-
-    .statistic__block_column2 {
-        gap: 55px;
-    }
 
 
 
