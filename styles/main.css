@@ -847,23 +847,25 @@ textarea::placeholder {
 
 }
 
+.aboutUs__flex {
+    display: flex;
+    height: 100%;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 90vh;
-    /* height: 100%; */
-    /* max-height: 100%; */
+    /* min-height: 90vh; */
+    flex: 1 1 auto;
     
 }
 
 .aboutUs__content {
 
     /* flex: 1 1 auto; */
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-height: 100%;
+   
+   
 }
 
 .aboutUs__content h2 {
