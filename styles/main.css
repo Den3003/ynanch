@@ -4672,16 +4672,15 @@ g:hover .circle_big {
     }
 
     .map-mobile__block {
+        display: -webkit-box-;
+        display: -ms-flexbox;
         display: flex;
+        gap: 15px;
         width: 485px;
         max-width: 100%;
         flex-wrap: wrap;
 
-        /* -webkit-column-gap: 15px; */
         
-        -webkit-gap: 15px;
-        -moz-gap: 15px;
-        gap: 15px;
         justify-content: center;
     }
 
