@@ -4929,9 +4929,13 @@ g:hover .circle_big {
         font-size: 18px;
     }
 
-    .map-mobile_img img {
-        max-width: 84%;
+    .map-mobile__block {
+        justify-content: center;
     }
+
+    /* .map-mobile_img img { */
+        /* max-width: 84%; */
+    /* } */
 
     .column1 {
         display: flex;
