@@ -850,6 +850,7 @@ textarea::placeholder {
 .aboutUs__flex {
     display: flex;
     height: 100%;
+    max-height: 100%;
 }
 
 .flex {
@@ -1815,14 +1816,16 @@ g:hover .circle_big {
 
 
 .work {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #121212;
 }
 
 .work__grid {
     display: flex;
     flex-direction: column;
-    min-height: 93vh;
+    /* min-height: 93vh; */
+    height: 100%;
+    max-height: 100%;
     justify-content: space-around;
 }
 
@@ -1881,14 +1884,15 @@ g:hover .circle_big {
    grid-template-columns: auto auto auto auto;
    justify-content: space-between;
    align-items: center;
-   min-height: 20vh;
+   /* min-height: 20vh; */
+   padding: 60px 0px;
 
 }
 
 
 .footer__socials {
     align-self: stretch;
-    padding-top: 22px;
+    /* padding-top: 22px; */
 }
 
 .socials_line {
@@ -2700,9 +2704,7 @@ g:hover .circle_big {
 
 
 
-    .footer__grid {
-        padding: 60px 0px;
-    }
+    
 
 
 
@@ -4578,7 +4580,7 @@ g:hover .circle_big {
 
     .work__main {
         flex-direction: column-reverse;
-        gap: 140px;
+        height: 63%;
     }
 
     .work__grid {
@@ -4967,20 +4969,31 @@ g:hover .circle_big {
 
 
     .footer {
-        min-height: 100vh;
+        flex: 1 0 100%;
+        /* min-height: 100vh; */
     }
 
     .footer__grid {
         /* align-items: center; */
         column-gap: 0px;
-        min-height: 100vh;
+        /* min-height: 100vh; */
+        height: 100%;
+        max-height: 100%;
         grid-template-areas:
             "logo"
             "office"
             "social"
             " inquiries";
 
+            padding-top: 0px;
+            padding: 40px 0px;
+        row-gap: 0;
+    }
 
+    .footer__grid {
+        /* align-items: center; */
+       
+        
     }
 
     .footer__logo {
@@ -4989,6 +5002,17 @@ g:hover .circle_big {
 
     .footer__socials {
         padding-right: 0;
+        align-self: center;
+    }
+
+    .footer__office p {
+        width: 311px;
+        max-width: 100%;
+    }
+
+    .footer__iquiries p {
+        width: 311px;
+        max-width: 100%;
     }
 
     
@@ -5593,7 +5617,7 @@ g:hover .circle_big {
     .footer__grid {
         /* align-items: center; */
         column-gap: 0px;
-        min-height: 100vh;
+        /* min-height: 100vh; */
         grid-template-areas:
             "logo"
             "office"
@@ -5601,9 +5625,6 @@ g:hover .circle_big {
             " inquiries"
             "comp-name";
 
-        padding: 0px 0px;
-        padding-top: 40px;
-        row-gap: 0;
     }
 
     .footer__company-name {
