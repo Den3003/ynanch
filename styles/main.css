@@ -4676,6 +4676,9 @@ g:hover .circle_big {
         width: 485px;
         max-width: 100%;
         flex-wrap: wrap;
+
+        -webkit-column-gap: 15px;
+        
         gap: 15px;
         justify-content: center;
     }
