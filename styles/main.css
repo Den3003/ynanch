@@ -4677,8 +4677,10 @@ g:hover .circle_big {
         max-width: 100%;
         flex-wrap: wrap;
 
-        -webkit-column-gap: 15px;
+        /* -webkit-column-gap: 15px; */
         
+        -webkit-gap: 15px;
+        -moz-gap: 15px;
         gap: 15px;
         justify-content: center;
     }
@@ -5122,6 +5124,7 @@ g:hover .circle_big {
 
     .footer {
         flex: 1 0 100%;
+        padding: 0px 0px;
         /* min-height: 100vh; */
     }
 
@@ -5138,7 +5141,7 @@ g:hover .circle_big {
             " inquiries";
 
             padding-top: 0px;
-            padding: 40px 0px;
+            padding: 0px 0px;
         row-gap: 0;
     }
 
