@@ -5655,6 +5655,38 @@ address a {
         max-width: 100%;
     }
 
+    .dynamic-modal__mobile {
+        padding: 80px 30px 37px 30px;
+    }
+
+    .pipeline-modal__mobile {
+        padding: 80px 30px 37px 30px;
+    }
+
+    .envi-modal__mobile {
+        padding: 80px 30px 37px 30px;
+    }
+
+    .civil-modal__mobile {
+        padding: 80px 30px 37px 30px;
+    }
+
+    .oil-modal__mobile {
+        padding: 80px 30px 60px 30px;
+    }
+
+    .company-modal__mobile {
+        padding: 80px 30px 37px 30px;
+    }
+
+    .oil-modal__mobile p {
+        font-size: 16px;
+    }
+
+    .envi-modal__mobile p {
+        font-size: 16px;
+    }
+
 
 
 
