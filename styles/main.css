@@ -2419,10 +2419,6 @@ address a {
         font-size: 19px;
     }
 
-    address a {
-        font-size: 19px;
-    }
-
     .header__body__slogan {
         gap: 55px;
     }
@@ -2596,10 +2592,6 @@ address a {
         font-size: 18px;
     }
 
-    address a {
-        font-size: 18px;
-    }
-
     .header__body__slogan {
         gap: 40px;
     }
@@ -2740,6 +2732,10 @@ address a {
     }
 
     .footer p {
+        font-size: 18px;
+    }
+
+    address a {
         font-size: 18px;
     }
 
@@ -2907,10 +2903,6 @@ address a {
         font-size: 16px;
     }
 
-    address a {
-        font-size: 16px;
-    }
-
     .slogan__button a {
         font-size: 16px;
     }
@@ -3042,6 +3034,10 @@ address a {
     }
 
     .footer p {
+        font-size: 17px;
+    }
+
+    address a {
         font-size: 17px;
     }
 
@@ -3265,9 +3261,7 @@ address a {
         font-size: 16px;
     }
 
-    address a {
-        font-size: 16px;
-    }
+    
 
 
 
@@ -3481,6 +3475,10 @@ address a {
     }
 
     .footer p {
+        font-size: 16px;
+    }
+
+    address a {
         font-size: 16px;
     }
 
@@ -3741,9 +3739,7 @@ address a {
         font-size: 14px;
     }
 
-    address a {
-        font-size: 14px;
-    }
+    
     
 
     
@@ -3859,6 +3855,10 @@ address a {
     }
 
     .footer p {
+        font-size: 14px;
+    }
+
+    address a {
         font-size: 14px;
     }
 
@@ -4130,9 +4130,7 @@ address a {
         font-size: 12px;
     }
 
-    address a {
-        font-size: 12px;
-    }
+    
 
 
 
@@ -4247,6 +4245,10 @@ address a {
     }
 
     .footer p {
+        font-size: 10px;
+    }
+
+    address a {
         font-size: 10px;
     }
 
@@ -4457,9 +4459,6 @@ address a {
         font-size: 14px;
     }
 
-    address a {
-        font-size: 14px;
-    }
 
     .nav__list {
         flex-direction: column;
@@ -4841,6 +4840,10 @@ address a {
         font-size: 20px;
         text-align: center;
         /* width: 450px; */
+    }
+
+    address a {
+        font-size: 20px;
     }
 
     .socials_line {
@@ -5445,9 +5448,7 @@ address a {
         font-size: 11px;
     }
 
-    address a {
-        font-size: 11px;
-    }
+    
 
 
 
@@ -5747,9 +5748,7 @@ address a {
         font-size: 11px;
     }
 
-    address a {
-        font-size: 11px;
-    }
+    
 
 
 
@@ -5827,6 +5826,10 @@ address a {
     .work__main p {
         font-size: 18px;
     }
+
+
+
+
 
     .footer__grid {
         /* align-items: center; */
