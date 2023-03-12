@@ -1920,6 +1920,18 @@ g:hover .circle_big {
     line-height: 1.5;
 }
 
+address {
+    font-style: normal;
+}
+
+address a {
+    text-decoration: none;
+    font-family: "Inter";
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .footer__socials h3 {
     margin-bottom: 40px;
     text-align: center;
@@ -2407,6 +2419,10 @@ g:hover .circle_big {
         font-size: 19px;
     }
 
+    address a {
+        font-size: 19px;
+    }
+
     .header__body__slogan {
         gap: 55px;
     }
@@ -2577,6 +2593,10 @@ g:hover .circle_big {
     }
 
     .header__footer p {
+        font-size: 18px;
+    }
+
+    address a {
         font-size: 18px;
     }
 
@@ -2884,6 +2904,10 @@ g:hover .circle_big {
     }
 
     .header__footer p {
+        font-size: 16px;
+    }
+
+    address a {
         font-size: 16px;
     }
 
@@ -3238,6 +3262,10 @@ g:hover .circle_big {
     }
 
     .header__footer p {
+        font-size: 16px;
+    }
+
+    address a {
         font-size: 16px;
     }
 
@@ -3712,6 +3740,10 @@ g:hover .circle_big {
     .header__footer p {
         font-size: 14px;
     }
+
+    address a {
+        font-size: 14px;
+    }
     
 
     
@@ -4098,6 +4130,10 @@ g:hover .circle_big {
         font-size: 12px;
     }
 
+    address a {
+        font-size: 12px;
+    }
+
 
 
     .logo {
@@ -4418,6 +4454,10 @@ g:hover .circle_big {
     }
 
     .header__footer p {
+        font-size: 14px;
+    }
+
+    address a {
         font-size: 14px;
     }
 
@@ -5405,6 +5445,10 @@ g:hover .circle_big {
         font-size: 11px;
     }
 
+    address a {
+        font-size: 11px;
+    }
+
 
 
 
@@ -5700,6 +5744,10 @@ g:hover .circle_big {
     }
 
     .header__footer p {
+        font-size: 11px;
+    }
+
+    address a {
         font-size: 11px;
     }
 
