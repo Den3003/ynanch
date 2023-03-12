@@ -4752,7 +4752,7 @@ address a {
 
     .work__main {
         flex-direction: column-reverse;
-        height: 63%;
+        height: 58%;
     }
 
     .work__grid {
@@ -5661,6 +5661,8 @@ address a {
 
     .work__main p {
         font-size: 19px;
+        width: 334px;
+        max-width: 100%;
     }
 
     .work_image {
