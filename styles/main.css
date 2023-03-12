@@ -171,9 +171,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo {
+    /* width: 150px; */
     display: flex;
-    align-self: flex-end;
+    max-width: 100%;
+    /* align-items: flex-end; */
+    /* align-self: flex-end; */
 }
+
+
 
 .header__nav img {
     position: relative;
@@ -1927,7 +1932,7 @@ address {
 address a {
     text-decoration: none;
     font-family: "Inter";
-    color: #FFFFFF;
+    color: inherit;
     font-weight: 500;
     font-size: 20px;
 }
@@ -2860,9 +2865,7 @@ address a {
         padding: 0px 0px;
     }
 
-    .oil-service__flex {
-        min-height: 65vh;
-    }
+    
 }
 
 
@@ -2887,6 +2890,15 @@ address a {
     .header__nav img {
         max-width: 11%;
         align-self: flex-end;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 132px;
+        max-width: 100%;
     }
 
     .nav__list a {
@@ -3224,6 +3236,19 @@ address a {
         max-width: 10%;
     }
 
+    .logo img {
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 117px;
+    }
+
+    .logo__block {
+        /* display: flex; */
+        align-self: end;
+    }
+
     .nav__list a {
         font-size: 14px;
     }
@@ -3427,7 +3452,7 @@ address a {
     }
 
     .civil__service__flex {
-        padding: 0px 0px;
+        padding: 50px 0px;
     }
 
 
@@ -3720,6 +3745,14 @@ address a {
         max-width: 11%;
     }
 
+    .logo img {
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 96px;
+    }
+
     .nav__list a {
         font-size: 14px;
     }
@@ -3868,6 +3901,10 @@ address a {
         max-width: 14%;
     }
 
+    .civil__service .footer__socials img {
+        max-width: 100%;
+    }
+
     .footer p {
         font-size: 14px;
     }
@@ -3975,7 +4012,7 @@ address a {
     }
 
     .pipeline__flex {
-        padding: 0px 0px;
+        /* padding: 0px 0px; */
     }
 
 
@@ -4040,8 +4077,13 @@ address a {
 @media only screen and (max-width: 960px) {
 
     .logo img {
-        max-width: 100%;
+        /* max-width: 100%; */
     }
+
+    /* .logo { */
+        /* width: 125px; */
+        /* max-width: 100%; */
+    /* } */
 
   
   
@@ -4099,6 +4141,18 @@ address a {
         max-width: 13%;
     }
 
+    .header__nav {
+        align-items: flex-end;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
     .nav__list a {
         font-size: 13px;
     }
@@ -4148,9 +4202,7 @@ address a {
 
 
 
-    .logo {
-        justify-content: flex-start;
-    }
+    
    
 
        
@@ -4488,6 +4540,10 @@ address a {
 
     .logo {
         z-index: 5;
+    }
+
+    .logo {
+        width: 120px;
     }
 
     .header_button {
@@ -4891,6 +4947,7 @@ address a {
         font-size: 22px;
     }
 
+    
 
 
 
@@ -5952,7 +6009,7 @@ address a {
     }
 
     .dynamic__flex {
-        padding: 0px 0px;
+        /* padding: 0px 0px; */
     }
 }
 
