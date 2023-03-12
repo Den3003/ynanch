@@ -1979,6 +1979,7 @@ address a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 50px 0px;
     background-image: linear-gradient(to right, #0E0E0E, #246EB9);
 }
 
@@ -2027,9 +2028,9 @@ address a {
     max-width: 100%;
 }
 
-.dynamic .screen__footer {
-    flex: none;
-}
+/* .dynamic .screen__footer { */
+    /* flex: none; */
+/* } */
 
 .dynamic .footer {
     background-color: inherit;
@@ -2045,6 +2046,7 @@ address a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 50px 0px;
     background-image: linear-gradient(to right, #0E0E0E, #7D8491);
 }
 
@@ -2150,9 +2152,9 @@ address a {
 }
 
 
-.pipeline .screen__footer {
-    flex: none;
-}
+/* .pipeline .screen__footer { */
+    /* flex: none; */
+/* } */
 
 .pipeline .footer {
     background-color: inherit;
@@ -2165,6 +2167,11 @@ address a {
 
 
 .envi-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 50px 0px;
     background-image: linear-gradient(to right, #0E0E0E, #4CB944);
 }
 
@@ -2224,9 +2231,9 @@ address a {
     margin-bottom: 40px;
 }
 
-.envi-service .screen__footer {
-    flex: none;
-}
+/* .envi-service .screen__footer { */
+    /* flex: none; */
+/* } */
 
 .envi-service .footer {
     background-color: inherit;
@@ -2240,7 +2247,10 @@ address a {
 
 
 .civil__service {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px;
     background: linear-gradient(90deg, #0E0E0E 13.54%, #C8C8C8 65.19%, #FBFBFB 81.25%);
 }
 
@@ -2297,9 +2307,9 @@ address a {
     max-width: 100%;
 }
 
-.civil__service .screen__footer {
-    flex: none;
-}
+/* .civil__service .screen__footer { */
+    /* flex: none; */
+/* } */
 
 .civil__service .footer {
     background-color: inherit;
@@ -2338,6 +2348,10 @@ address a {
 
 
 .oil-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px;
     background-image: linear-gradient(to right, #0E0E0E, #423629);
 }
 
@@ -5051,6 +5065,14 @@ address a {
         max-width: 54%;
     }
 
+    .nav__list a {
+        font-size: 20px;
+    }
+
+    .nav__list {
+        gap: 45px;
+    }
+
 
 
     .flex__h2 {
@@ -5618,6 +5640,15 @@ address a {
     .aboutUs__content p {
         font-size: 13px;
         white-space: normal;
+    }
+
+    .nav__list a {
+        font-size: 18px;
+    }
+
+    .nav__list {
+        gap: 35px;
+        margin-bottom: 40px;
     }
 
 
