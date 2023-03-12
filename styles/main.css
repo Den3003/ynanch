@@ -4756,7 +4756,7 @@ address a {
     }
 
     .work__grid {
-        min-height: 100vh;
+        /* min-height: 100vh; */
     }
 
     .work__header h2 {
